@@ -1,8 +1,8 @@
 /* Start Variables */
 :root {
-  --main-color: #10cab7;
+  --main-color: rgba(255, 217, 0, 0.667);
   ;
-  --secondary-color: #2c4755;
+  --secondary-color: #EEBC1D;
   --section-padding: 60px;
   --section-background: #f6f6f6;
   --main-duration: 0.5s;
@@ -94,8 +94,10 @@ body {
   align-items: center;
 }
 
-.header .logo {
+.header .container #ii {
   width: 60px;
+  color: #EEBC1D;
+  font-size: 25px;
 }
 
 .header .links {
